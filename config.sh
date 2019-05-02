@@ -8,7 +8,7 @@ tmp=/tmp/kernel-flasher
 # leave device_names empty to allow flashing on any device
 device_names=
 # leave boot_block empty for automatic (searches recovery.fstab and other locations)
-boot_block=
+boot_block=$tmp/target.boot.img
 # leave ramdisk_compression empty to keep the current ramdisk compression format
 # only gzip, lz4, lzo, and bzip2 are supported
 ramdisk_compression=
